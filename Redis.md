@@ -244,7 +244,7 @@ public class CacheService {
         if(StringUtils.isEmpty(username)) {
             return null;
         }
-        User user = new User(1, username, "123", "13012312312");
+        User user = new User(1, username, "123", "123456");
         return user;
     }
 }
